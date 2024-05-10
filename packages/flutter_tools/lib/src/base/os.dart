@@ -629,6 +629,7 @@ enum HostPlatform {
   darwin_x64,
   darwin_arm64,
   linux_x64,
+  linux_riscv64,
   linux_arm64,
   windows_x64,
   windows_arm64;
@@ -638,6 +639,7 @@ enum HostPlatform {
       HostPlatform.darwin_x64 => 'x64',
       HostPlatform.darwin_arm64 => 'arm64',
       HostPlatform.linux_x64 => 'x64',
+      HostPlatform.linux_riscv64 => 'riscv64',
       HostPlatform.linux_arm64 => 'arm64',
       HostPlatform.windows_x64 => 'x64',
       HostPlatform.windows_arm64 => 'arm64',
@@ -650,6 +652,7 @@ String getNameForHostPlatform(HostPlatform platform) {
     HostPlatform.darwin_x64 => 'darwin-x64',
     HostPlatform.darwin_arm64 => 'darwin-arm64',
     HostPlatform.linux_x64 => 'linux-x64',
+    HostPlatform.linux_riscv64 => 'linux-riscv64',
     HostPlatform.linux_arm64 => 'linux-arm64',
     HostPlatform.windows_x64 => 'windows-x64',
     HostPlatform.windows_arm64 => 'windows-arm64',
